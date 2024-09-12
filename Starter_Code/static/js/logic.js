@@ -13,7 +13,7 @@ fetch(queryUrl)
 
 // Step 3: Marker size based on magnitude
 function markerSize(magnitude) {
-    return magnitude * 4;
+    return magnitude * 2;
 }
 
 // Step 3: Color based on depth
@@ -27,11 +27,6 @@ function getColor(depth) {
 }
 
 // Step 4: Create features
-// Scale down to make markers smaller
-function markerSize(magnitude) {
-    return magnitude * 2;
-}
-
 function createEarthquakeFeatures(earthquakeData) {
     earthquakeData.forEach(earthquake => {
         var magnitude = earthquake.properties.mag;

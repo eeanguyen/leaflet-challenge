@@ -8,7 +8,6 @@ This project visualizes earthquake data from the USGS in real-time using the Lea
 - **Interactive Popups**: Each marker has a popup showing information about the earthquake (location, magnitude, depth, date).
 - **Legend**: The map includes a legend that explains the depth color coding.
 
-
 ## Technologies Used
 
 - **Leaflet**: JavaScript library for interactive maps.
